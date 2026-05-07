@@ -1,0 +1,17 @@
+# KiCad lock files (like the one currently in your folder)
+*.lck
+
+# KiCad temporary and backup files
+*.bak
+*.bck
+*-bak
+_autosave-*
+*.tmp
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+fp-info-cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
