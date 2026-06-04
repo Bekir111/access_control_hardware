@@ -16932,7 +16932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7uF 16V X7R 0805"
+		(property "Description" "4.7uF 25V X5R +-10%"
 			(at 91.44 231.14 0)
 			(effects
 				(font
@@ -16941,7 +16941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "SAMSUNG ELECTRO-MECHANICS"
 			(at 91.44 231.14 0)
 			(effects
 				(font
@@ -16950,7 +16950,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR71C475KA73L"
+		(property "MPN" "CL21A475KAQNNNE"
 			(at 91.44 231.14 0)
 			(effects
 				(font
@@ -16959,7 +16959,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86040"
+		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/samsung-electro-mechanics/CL21A475KAQNNNE/3886902?s=N4IgTCBcDaIMIBkwEYCCAWA7AVgNKoEUA5EgURAF0BfIA"
 			(at 91.44 231.14 0)
 			(effects
 				(font
@@ -16968,16 +16968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.bg/ProductDetail/Murata-Electronics/GRM21BR71C475KA73L?qs=kHCDrmfBqSDNg0vW%2Fm3%2F%252Bw%3D%3D"
-			(at 91.44 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/murata-electronics/GRM21BR71C475KA73L/1033258?s=N4IgTCBcDaIOICUCyYCMAhBB2VBhALFgKwDSAglgMwAyIAugL5A"
+		(property "Distributor Link 3" "https://store.comet.bg/Catalogue/Product/9581/"
 			(at 91.44 231.14 0)
 			(effects
 				(font
