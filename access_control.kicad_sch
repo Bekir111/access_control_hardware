@@ -10658,6 +10658,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 3" "https://store.comet.bg/en/Catalogue/Product/23048/"
+			(at 60.96 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40c26cb0-dfab-4fe3-ac5c-1321131993c3")
 		)
@@ -10765,6 +10774,15 @@
 			)
 		)
 		(property "LCSC" "C91185"
+			(at 148.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://store.comet.bg/en/Catalogue/Product/6645/"
 			(at 148.59 147.32 0)
 			(effects
 				(font
@@ -11772,7 +11790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRYSTAL 16.0000MHZ 10PF SMD"
+		(property "Description" "16.000 MHz 3.2x2.5mm SMD (DFN) 10ppm 8pF -20+70°C"
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -11781,27 +11799,7 @@
 				(hide yes)
 			)
 		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 67.31 205.74 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 67.31 208.28 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Abracon"
+		(property "Manufacturer" "YANGXING TECHNOLOGY Co., Ltd"
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -11810,7 +11808,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ABM8N-16.0000MHZ-10-B1U-T3"
+		(property "MPN" "X322516MKB4SI"
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -11819,7 +11817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.bg/ProductDetail/ABRACON/ABM8N-16.0000MHZ-10-B1U-T3?qs=bN4HulGPsrH47KagwWgHnw%3D%3D"
+		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46207/"
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -11828,7 +11826,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.bg/en/products/detail/abracon-llc/ABM8N-16-0000MHZ-10-B1U-T3/26484042?s=N4IgTCBcDaIIICECyAOAcgWgIwDYB0ADEQUgBIBa2BGCWAqhgCoDMIAugL5A"
+		(property "LCSC" "C13738"
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field9" ""
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -14044,7 +14060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10pF 50V NP0 0805"
+		(property "Description" "10pF 50V C0G +-0.25pF"
 			(at 74.93 204.47 0)
 			(effects
 				(font
@@ -14090,6 +14106,15 @@
 			)
 		)
 		(property "LCSC" "C107107"
+			(at 74.93 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://store.comet.bg/en/Catalogue/Product/23048/"
 			(at 74.93 204.47 0)
 			(effects
 				(font
@@ -18864,6 +18889,15 @@
 			)
 		)
 		(property "LCSC" "C91185"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://store.comet.bg/en/Catalogue/Product/6645/"
 			(at 168.91 147.32 0)
 			(effects
 				(font
