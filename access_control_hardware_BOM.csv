@@ -1,0 +1,27 @@
+Reference,Qty,Value,Footprint,,,,,MPN,Manufacturer,Manufacturer Part Number,`Manufactuer Part Number
+BT1,1,Battery_Cell,Battery:BatteryHolder_Keystone_1060_1x2032,,,,,,,,
+"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C16,C20,C21,C22,C23,C24,C25,C28",20,0.1uF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,,CL21B104KBCNNNC,Samsung Electro-Mechanics,,CL21B104KBCNNNC
+C13,1,10uF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,,CL21A106KAYNNNE,Samsung Electro-Mechanics,,CL21A106KAYNNNE
+"C14,C15",2,1uF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,,CC0805KKX7R9BB105,YAGEO,,CC0805KKX7R9BB105
+"C17,C18",2,10pF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,,CC0805JRNPO9BN100,YAGEO,,
+C19,1,4.7uF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,,CL21A475KAQNNNE,SAMSUNG ELECTRO-MECHANICS,,
+C26,1,47uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,,,,,EXR470M35B,HITANO ENTERPRISE CORP. ,,
+C27,1,10uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,,,,,RK1V100M-TSD11,FUJICON,,
+C29,1,100uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,,,,,RM1C101M-RBE07,FUJICON,,
+"D1,D2,D3,D4,D6,D7",6,D,Diode_SMD:D_SMA-SMB_Universal_Handsoldering,,,,,M7,Tong Ke / Diotec Semiconductor,,
+D5,1,RED_LED,LED_THT:LED_D3.0mm,,,,,,,,
+FB1,1,600R,Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,,,,,BLM21BD601SN1D,Murata Electronics,,
+J1,1,Conn_01x04_Pin,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,,,,,,,
+"J2,J3,J5,J6",4,Screw_Terminal_01x04,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",,,,,,,,
+"J4,J7,J8,J9,J10",5,Screw_Terminal_01x02,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",,,,,,,,
+"Q1,Q2,Q3,Q4",4,NMOS,Package_TO_SOT_SMD:SOT-23_Handsoldering,,,,,FDV305N,onsemi,,
+"R1,R4,R5,R6,R7,R8",6,10k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,,RC0805FR-0710KL,YAGEO,,
+"R2,R3",2,4.7k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,,CRCW08054K70JNTABC,VISHAY,,
+R9,1,1k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,,RC0805FR-071KL,YAGEO,,
+"R10,R11,R12,R13",4,30 Ohms,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,,CRCW080530R0FKTABC,VISHAY ,,
+SW1,1,Reset button,Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92,,,,,DTSM-61N-V-T/R,Diptronics,,
+U1,1,STM32F446RETx,Package_QFP:LQFP-64_10x10mm_P0.5mm,,,,,STM32F446RET6,STMICROELECTRONICS,,
+U2,1,DS3231SN,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,,,,,DS3231SN#T&R,MAXIM,,
+"U3,U4",2,MAX3232ESE,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,,,,,MAX3232ESE+T,MAXIM,,
+U5,1,BA033CC0T,Package_TO_SOT_THT:TO-220-3_Vertical,,,,,BA033CC0T,ROHM,,
+Y1,1,16MHz,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,,,,,X322516MKB4SI,"YANGXING TECHNOLOGY Co., Ltd",,
