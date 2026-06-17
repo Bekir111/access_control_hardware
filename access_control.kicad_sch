@@ -3809,322 +3809,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4645,6 +4329,304 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:DMG2301L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMG2301L"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMG2301L_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMG2301L_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5759,6 +5741,12 @@
 		(uuid "32746ff8-f196-4843-b2b6-10af2793e159")
 	)
 	(junction
+		(at 367.03 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db1e2df-f830-4cd7-a918-ef5b3fa3c9a6")
+	)
+	(junction
 		(at 39.37 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5997,6 +5985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26dd2f1-1178-4fe9-8c8a-bae072891ecf")
+	)
+	(junction
+		(at 57.15 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c59d806b-2d86-4667-9750-ebb19c41fcd8")
 	)
 	(junction
 		(at 313.69 33.02)
@@ -6854,16 +6848,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 40.64) (xy 46.99 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38cc5315-2ffb-4bb3-9fa3-53f1d90a850b")
-	)
-	(wire
-		(pts
 			(xy 39.37 34.29) (xy 39.37 40.64)
 		)
 		(stroke
@@ -6894,13 +6878,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 40.64) (xy 59.69 40.64)
+			(xy 54.61 40.64) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f4157e7-92f0-44a2-b3c1-75d275516eb6")
+	)
+	(wire
+		(pts
+			(xy 57.15 40.64) (xy 59.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa233c4-20ae-4e95-9908-7c4e2ea6e352")
 	)
 	(wire
 		(pts
@@ -8014,7 +8008,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 66.04) (xy 368.3 66.04)
+			(xy 363.22 66.04) (xy 367.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8261,6 +8255,16 @@
 			(type default)
 		)
 		(uuid "ac8cea0d-2b32-42f5-ad9b-a2c11367fcf8")
+	)
+	(wire
+		(pts
+			(xy 367.03 66.04) (xy 368.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad20b63d-fd3a-4d6f-89a0-217f248fa6f3")
 	)
 	(wire
 		(pts
@@ -9011,6 +9015,16 @@
 			(type default)
 		)
 		(uuid "f370c2b5-2898-41c3-8157-438e99f7331c")
+	)
+	(wire
+		(pts
+			(xy 41.91 40.64) (xy 46.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47ccb82-6c2b-40d3-b881-5e5978c4738e")
 	)
 	(wire
 		(pts
@@ -11521,6 +11535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907256"
+			(at 228.6 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7864c006-3a87-4824-a3f3-eabdc7f56ae0")
 		)
@@ -11668,159 +11691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 308.61 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "226d1528-6daa-4174-86cc-c34dffb70998")
-		(property "Reference" "Q2"
-			(at 314.96 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 314.96 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 313.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
-			(at 308.61 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 308.61 205.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 308.61 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 308.61 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FDV305N"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C154511"
-			(at 308.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7c877fe-855f-4336-8ca9-32df46e11503")
-		)
-		(pin "1"
-			(uuid "ce4974f5-1c09-4652-9d78-d03b14c5db57")
-		)
-		(pin "3"
-			(uuid "99a47bd4-9017-4ea9-8491-389131ff5f1a")
-		)
-		(instances
-			(project "access_control"
-				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 210.82 0)
 		(unit 1)
@@ -11882,6 +11752,127 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 308.61 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "254558f8-dd30-4bbf-885b-4b9538ad923c")
+		(property "Reference" "Q3"
+			(at 314.96 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDV305N"
+			(at 314.96 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 313.69 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
+			(at 313.69 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
+			(at 308.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDV305N"
+			(at 308.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154511"
+			(at 308.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
+			(at 308.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
+			(at 308.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
+			(at 308.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc3f3343-ceb3-4ade-abdd-11b2a6d0720f")
+		)
+		(pin "3"
+			(uuid "48312846-5c7d-4242-946a-9c7d69182d55")
+		)
+		(pin "1"
+			(uuid "b7238a20-f0e5-4888-8516-adc26f0485f8")
+		)
+		(instances
+			(project "access_control"
+				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -11997,159 +11988,6 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 245.11 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25d3c0b5-4483-4c04-9a4e-99fffec6ed4d")
-		(property "Reference" "Q1"
-			(at 251.46 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 251.46 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 250.19 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
-			(at 245.11 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 245.11 205.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 245.11 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 245.11 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FDV305N"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C154511"
-			(at 245.11 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f26d84f4-d2c7-4744-8f15-d7739b4aeb20")
-		)
-		(pin "1"
-			(uuid "c7b85e80-be1d-4b2a-adb8-e2cf0de2869a")
-		)
-		(pin "3"
-			(uuid "dfaa5743-ad5c-4c46-8cef-22f69d6fcae7")
-		)
-		(instances
-			(project ""
-				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13178,6 +13016,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907326"
+			(at 153.67 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c75aa4b-0ec0-474c-a0fa-ac4b0881c3ea")
 		)
@@ -13602,10 +13449,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5237a76f-026c-4b6d-ac5d-d911d163507d")
 		(property "Reference" "TP1"
-			(at 44.45 36.0679 0)
+			(at 40.132 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13657,6 +13503,71 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 367.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52645864-0c2b-4763-a83f-c48ff8fc7ca4")
+		(property "Reference" "#FLG04"
+			(at 367.03 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 371.856 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 367.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28dfdda9-90ec-4599-98c2-d321fbd5458f")
+		)
+		(instances
+			(project "access_control"
+				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -13733,6 +13644,15 @@
 			)
 		)
 		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/36192/"
+			(at 290.83 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907256"
 			(at 290.83 187.96 90)
 			(effects
 				(font
@@ -15637,7 +15557,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 365.76 66.04 0)
+		(at 363.22 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15645,7 +15565,7 @@
 		(dnp no)
 		(uuid "7a8dc1f0-ab70-4358-9afe-55e7fa65d722")
 		(property "Reference" "#PWR023"
-			(at 365.76 69.85 0)
+			(at 363.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15574,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 368.554 62.484 0)
+			(at 363.728 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15662,7 +15582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 66.04 0)
+			(at 363.22 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15671,7 +15591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 66.04 0)
+			(at 363.22 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,7 +15600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 365.76 66.04 0)
+			(at 363.22 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16259,159 +16179,6 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 308.61 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "811ac993-2b3c-485e-b720-0824aaa30a68")
-		(property "Reference" "Q4"
-			(at 314.96 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 314.96 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 313.69 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
-			(at 308.61 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 308.61 249.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 308.61 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 308.61 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FDV305N"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C154511"
-			(at 308.61 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "624132c0-c770-4de4-b88c-a8b8f03ac093")
-		)
-		(pin "1"
-			(uuid "fb4fc937-f52e-4014-93f5-24e70dd82622")
-		)
-		(pin "3"
-			(uuid "d38defcc-4746-410e-9996-182aca438670")
-		)
-		(instances
-			(project "access_control"
-				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -17123,16 +16890,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 40.64 0)
+		(at 57.15 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9258aeed-e162-4bd0-9653-82a29f4ee65b")
 		(property "Reference" "#FLG01"
-			(at 59.69 38.735 0)
+			(at 57.15 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17141,7 +16907,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 59.69 35.56 0)
+			(at 61.976 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17149,7 +16915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 40.64 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17158,7 +16924,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 40.64 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17167,7 +16933,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 40.64 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17179,7 +16945,7 @@
 			(uuid "4b282c68-874c-4787-8531-ce9d4af97f56")
 		)
 		(instances
-			(project ""
+			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "#FLG01")
 					(unit 1)
@@ -17449,6 +17215,15 @@
 			)
 		)
 		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/36192/"
+			(at 290.83 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907256"
 			(at 290.83 232.41 90)
 			(effects
 				(font
@@ -18182,6 +17957,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907295"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90db5171-7e80-4048-afba-70f4066f3ed2")
 		)
@@ -18258,6 +18042,127 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 308.61 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad96208c-370e-492a-937d-18cefb978269")
+		(property "Reference" "Q2"
+			(at 314.96 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDV305N"
+			(at 314.96 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 313.69 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
+			(at 313.69 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDV305N"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154511"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6298a4e4-e33f-48ff-af96-a9c2a0e78dcc")
+		)
+		(pin "3"
+			(uuid "02690000-19f9-428a-9770-5fdfec08ec58")
+		)
+		(pin "1"
+			(uuid "1747dcfe-160c-4018-9fa9-367280edb8bb")
+		)
+		(instances
+			(project "access_control"
+				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -18735,6 +18640,15 @@
 			)
 		)
 		(property "MPN" "CRCW08054K70JNTABC"
+			(at 160.02 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907326"
 			(at 160.02 209.55 0)
 			(effects
 				(font
@@ -19780,6 +19694,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907256"
+			(at 229.87 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9e6540f-3dc8-4be4-827a-ca14a52c4b14")
 		)
@@ -20700,6 +20623,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 245.11 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf6e0529-9e90-46f1-9e3e-83dfbb21f964")
+		(property "Reference" "Q4"
+			(at 251.46 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDV305N"
+			(at 251.46 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 250.19 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
+			(at 250.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDV305N"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154511"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa3c180d-979d-4e00-b7ff-34410202fad2")
+		)
+		(pin "3"
+			(uuid "1c371715-9708-44ec-9eee-2f2b4995f937")
+		)
+		(pin "1"
+			(uuid "308a7739-e866-4b48-9158-b534418b98b5")
+		)
+		(instances
+			(project "access_control"
+				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 148.59 143.51 0)
 		(unit 1)
@@ -20827,159 +20871,6 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 245.11 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1487292-5637-4836-9a2f-5940b12b1f3f")
-		(property "Reference" "Q3"
-			(at 251.46 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 251.46 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 250.19 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
-			(at 245.11 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 245.11 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 245.11 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 245.11 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FDV305N"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C154511"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d57ab6b8-d262-404e-bba7-6d051eb3a03e")
-		)
-		(pin "1"
-			(uuid "ff49bb3b-c372-4185-9642-ba3fa3cee9bc")
-		)
-		(pin "3"
-			(uuid "21f4b8d7-ec3b-4303-9e0e-fbacc433a05c")
-		)
-		(instances
-			(project "access_control"
-				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21662,6 +21553,127 @@
 			(project "access_control"
 				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 245.11 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e820cc98-e6b6-439b-b865-aeabac9d9e66")
+		(property "Reference" "Q1"
+			(at 251.46 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDV305N"
+			(at 251.46 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 250.19 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://store.comet.bg/download-file.php?id=24383"
+			(at 250.19 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS 20V 0.9A 0.35W 0.22Ohm/4.5V"
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDV305N"
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154511"
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://store.comet.bg/Catalogue/Product/46042/"
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.bg/en/products/detail/onsemi/FDV305N/1051396"
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 3" "https://www.mouser.bg/ProductDetail/onsemi/FDV305N?qs=mdiO5HdF0KjwjAZb7xdQ1g%3D%3D"
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f5665d4-cd55-4b0f-899a-84906200e849")
+		)
+		(pin "3"
+			(uuid "76f90d92-7b9c-4cdd-87dc-cea745a99602")
+		)
+		(pin "1"
+			(uuid "0f899e52-0b1a-445d-ac2f-1df8efeb8627")
+		)
+		(instances
+			(project ""
+				(path "/dbbe02a4-bb86-408f-923f-771a3557f991"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
